@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertising Company</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <header style="background-color: #4CAF50; color: white; text-align: center; padding: 20px;">
+        <h1 style="margin: 0;">Welcome to Our Advertising Company</h1>
+        <p style="font-size: 18px;">Creative Solutions for Your Business</p>
+    </header>
+
+    <section style="padding: 20px; background-color: #f2f2f2;">
+        <h2 style="color: #333;">Our Services</h2>
+        <ul style="list-style-type: none; padding: 0;">
+            <li style="background-color: #ffcc00; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">Brand Strategy</h3>
+                <p style="margin: 5px 0;">We help you define your brand's identity and voice.</p>
+            </li>
+            <li style="background-color: #ff5722; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">Digital Marketing</h3>
+                <p style="margin: 5px 0;">Maximize your online presence with targeted campaigns.</p>
+            </li>
+            <li style="background-color: #2196F3; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">Creative Design</h3>
+                <p style="margin: 5px 0;">Eye-catching designs that capture your audience's attention.</p>
+            </li>
+            <li style="background-color: #9C27B0; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">Social Media Management</h3>
+                <p style="margin: 5px 0;">Engage your audience and build your brand on social media.</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px;">
+        <p style="margin: 0;">&copy; 2024 Advertising Company. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
