@@ -1,0 +1,51 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Institute</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <header style="background-color: #007BFF; color: white; text-align: center; padding: 20px;">
+        <h1 style="margin: 0;">Welcome to Our Educational Institute</h1>
+        <p style="font-size: 18px;">Empowering Students for a Brighter Future</p>
+    </header>
+
+    <section style="padding: 20px; background-color: #F8F9FA;">
+        <h2 style="color: #333;">Courses Offered</h2>
+        <ul style="list-style-type: none; padding: 0;">
+            <li style="background-color: #28A745; color: white; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">Computer Science</h3>
+                <p style="margin: 5px 0;">Learn the fundamentals of programming and software development.</p>
+            </li>
+            <li style="background-color: #FFC107; color: #333; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">Business Management</h3>
+                <p style="margin: 5px 0;">Develop your skills in leadership, marketing, and finance.</p>
+            </li>
+            <li style="background-color: #17A2B8; color: white; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">Graphic Design</h3>
+                <p style="margin: 5px 0;">Explore creative design techniques and software tools.</p>
+            </li>
+            <li style="background-color: #DC3545; color: white; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">Data Science</h3>
+                <p style="margin: 5px 0;">Analyze data and gain insights for informed decision-making.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section style="padding: 20px; background-color: #E9ECEF;">
+        <h2 style="color: #333;">About Us</h2>
+        <p style="color: #555; line-height: 1.5;">
+            Our educational institute is dedicated to providing high-quality education and training to empower students 
+            in their academic and professional pursuits. With experienced instructors and a wide range of courses, we 
+            aim to cultivate a love for learning and personal growth.
+        </p>
+    </section>
+
+    <footer style="background-color: #343A40; color: white; text-align: center; padding: 10px;">
+        <p style="margin: 0;">&copy; 2024 Educational Institute. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
