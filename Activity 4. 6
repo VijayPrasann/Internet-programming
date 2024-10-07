@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Box Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .box {
+            width: 300px; /* Width of the content area */
+            padding: 20px; /* Space inside the box (content area) */
+            border: 5px solid #007BFF; /* Border around the box */
+            margin: 20px; /* Space outside the box */
+            background-color: white; /* Background color of the content area */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+        .box-description {
+            margin: 10px 0;
+            color: #555; /* Text color for description */
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Understanding the Box Model</h1>
+
+    <div class="box">
+        <h2>Box Model Example</h2>
+        <p class="box-description">This box demonstrates the box model properties:</p>
+        <ul class="box-description">
+            <li><strong>Width:</strong> 300px (content width)</li>
+            <li><strong>Padding:</strong> 20px (space inside the box)</li>
+            <li><strong>Border:</strong> 5px solid blue</li>
+            <li><strong>Margin:</strong> 20px (space outside the box)</li>
+        </ul>
+    </div>
+
+    <div class="box" style="background-color: #ffcc00;">
+        <h2>Another Box Example</h2>
+        <p class="box-description">This box has a different background color but the same box model properties.</p>
+    </div>
+
+</body>
+</html>
