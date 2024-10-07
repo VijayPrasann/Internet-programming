@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Borders in CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .box {
+            border: 2px solid #007BFF; /* Solid blue border */
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px; /* Rounded corners */
+            background-color: white;
+        }
+        .dashed {
+            border: 2px dashed #FF5733; /* Dashed orange border */
+        }
+        .dotted {
+            border: 2px dotted #28A745; /* Dotted green border */
+        }
+        .double {
+            border: 4px double #FFC107; /* Double yellow border */
+        }
+        table {
+            border-collapse: collapse; /* Collapse borders into a single border */
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 2px solid #343A40; /* Solid dark border for table cells */
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF; /* Blue background for table headers */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Understanding Borders in CSS</h1>
+
+    <div class="box">
+        <h2>Solid Border</h2>
+        <p>This box has a solid blue border.</p>
+    </div>
+
+    <div class="box dashed">
+        <h2>Dashed Border</h2>
+        <p>This box has a dashed orange border.</p>
+    </div>
+
+    <div class="box dotted">
+        <h2>Dotted Border</h2>
+        <p>This box has a dotted green border.</p>
+    </div>
+
+    <div class="box double">
+        <h2>Double Border</h2>
+        <p>This box has a double yellow border.</p>
+    </div>
+
+    <h2>Border in Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Solid Border</td>
+                <td>A standard solid border.</td>
+            </tr>
+            <tr>
+                <td>Dashed Border</td>
+                <td>A border made of dashes.</td>
+            </tr>
+            <tr>
+                <td>Dotted Border</td>
+                <td>A border made of dots.</td>
+            </tr>
+            <tr>
+                <td>Double Border</td>
+                <td>A thicker border with two lines.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
