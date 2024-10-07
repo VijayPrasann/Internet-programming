@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Methods in CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0; /* Light gray background */
+        }
+        .color-box {
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            color: white; /* Text color for better contrast */
+        }
+        .named-color {
+            background-color: coral; /* Named color */
+        }
+        .hex-color {
+            background-color: #007BFF; /* Hexadecimal color */
+        }
+        .rgb-color {
+            background-color: rgb(255, 165, 0); /* RGB color */
+        }
+        .hsl-color {
+            background-color: hsl(120, 100%, 50%); /* HSL color */
+        }
+        .transparent {
+            background-color: rgba(255, 0, 0, 0.5); /* Red with transparency */
+            color: black; /* Change text color for visibility */
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Understanding Various Methods of Adding Color in CSS</h1>
+
+    <div class="color-box named-color">
+        <h2>Named Color</h2>
+        <p>This box uses the named color <strong>coral</strong>.</p>
+    </div>
+
+    <div class="color-box hex-color">
+        <h2>Hexadecimal Color</h2>
+        <p>This box uses the hexadecimal color <strong>#007BFF</strong>.</p>
+    </div>
+
+    <div class="color-box rgb-color">
+        <h2>RGB Color</h2>
+        <p>This box uses the RGB color <strong>rgb(255, 165, 0)</strong>.</p>
+    </div>
+
+    <div class="color-box hsl-color">
+        <h2>HSL Color</h2>
+        <p>This box uses the HSL color <strong>hsl(120, 100%, 50%)</strong>.</p>
+    </div>
+
+    <div class="color-box transparent">
+        <h2>RGBA Color (with Transparency)</h2>
+        <p>This box uses RGBA with a transparency value: <strong>rgba(255, 0, 0, 0.5)</strong>.</p>
+    </div>
+
+</body>
+</html>
