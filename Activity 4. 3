@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Reservation System</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <header style="background-color: #FF5733; color: white; text-align: center; padding: 20px;">
+        <h1 style="margin: 0;">Welcome to Our Bus Reservation System</h1>
+        <p style="font-size: 18px;">Your Journey Starts Here!</p>
+    </header>
+
+    <section style="padding: 20px; background-color: #F8F9FA;">
+        <h2 style="color: #333;">Available Routes</h2>
+        <ul style="list-style-type: none; padding: 0;">
+            <li style="background-color: #28A745; color: white; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">City A to City B</h3>
+                <p style="margin: 5px 0;">Departure: 9:00 AM | Arrival: 11:00 AM</p>
+            </li>
+            <li style="background-color: #007BFF; color: white; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">City C to City D</h3>
+                <p style="margin: 5px 0;">Departure: 1:00 PM | Arrival: 3:00 PM</p>
+            </li>
+            <li style="background-color: #FFC107; color: #333; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">City E to City F</h3>
+                <p style="margin: 5px 0;">Departure: 5:00 PM | Arrival: 7:00 PM</p>
+            </li>
+            <li style="background-color: #DC3545; color: white; margin: 10px 0; padding: 15px; border-radius: 5px;">
+                <h3 style="margin: 0;">City G to City H</h3>
+                <p style="margin: 5px 0;">Departure: 8:00 AM | Arrival: 10:00 AM</p>
+            </li>
+        </ul>
+    </section>
+
+    <section style="padding: 20px; background-color: #E9ECEF;">
+        <h2 style="color: #333;">Book Your Ticket</h2>
+        <form style="max-width: 400px; margin: auto;">
+            <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+
+            <label for="route" style="display: block; margin-bottom: 5px;">Route:</label>
+            <select id="route" name="route" required style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                <option value="" disabled selected>Select your route</option>
+                <option value="A-B">City A to City B</option>
+                <option value="C-D">City C to City D</option>
+                <option value="E-F">City E to City F</option>
+                <option value="G-H">City G to City H</option>
+            </select>
+
+            <label for="date" style="display: block; margin-bottom: 5px;">Travel Date:</label>
+            <input type="date" id="date" name="date" required style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+
+            <button type="submit" style="background-color: #FF5733; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">Book Now</button>
+        </form>
+    </section>
+
+    <footer style="background-color: #343A40; color: white; text-align: center; padding: 10px;">
+        <p style="margin: 0;">&copy; 2024 Bus Reservation System. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
