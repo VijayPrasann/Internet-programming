@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Output Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Input and Output Application</h1>
+    <p>Please enter your name and age:</p>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name"><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" placeholder="Enter your age"><br>
+
+    <button onclick="displayGreeting()">Submit</button>
+
+    <h2 id="output"></h2>
+
+    <script>
+        function displayGreeting() {
+            // Get input values
+            const name = document.getElementById("name").value;
+            const age = document.getElementById("age").value;
+
+            // Check if inputs are not empty
+            if (name === "" || age === "") {
+                document.getElementById("output").innerText = "Please fill in both fields.";
+                return;
+            }
+
+            // Create output message
+            const message = `Hello, ${name}! You are ${age} years old.`;
+            
+            // Display output
+            document.getElementById("output").innerText = message;
+        }
+    </script>
+
+</body>
+</html>
